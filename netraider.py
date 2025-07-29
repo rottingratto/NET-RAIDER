@@ -72,7 +72,7 @@ def restart():
         print(copyright)
         print("\n\033[1;32mGoodbye\033[0;m\033[1;37m!\033[0;m")
         tool = exit(0)
-    os.system("python3 netraider.py")    	
+    os.system("python3 NET-RAIDER.py")    	
 
 def check_network():
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -144,7 +144,7 @@ def NetworkScan():
         comando = "nmap {} " .format(ipaddress)
         os.system(comando)
         time.sleep(20)
-        os.system("python3 netraider.py")
+        os.system("python3 NET-RAIDER.py")
 
 menu() 
 
@@ -205,7 +205,7 @@ elif option == 5:
             time.sleep(1)
             exit(0)
         else:
-            os.system('python3 netraider.py')  
+            os.system('python3 NET-RAIDER.py')  
             
 elif option  == 6:
 	os.system("clear")
@@ -214,7 +214,7 @@ elif option  == 6:
 	interfaz = input(" \033[1;39m>> \033[0;39m")
 	comando = "airmon-ng start {} && airmon-ng check kill".format(interfaz)
 	os.system(comando)
-	os.system("python3 netraider.py")
+	os.system("python3 NET-RAIDER.py")
 
 elif option == 7: 
     os.system("clear")
@@ -225,7 +225,7 @@ elif option == 7:
     print(" \033[1;31mtask finished!\033[0m")
     time.sleep(2)
     os.system("clear")
-    os.system("python3 netraider.py")
+    os.system("python3 NET-RAIDER.py")
     
     
 elif option == 0:
