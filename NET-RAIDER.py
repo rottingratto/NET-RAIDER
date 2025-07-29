@@ -49,6 +49,8 @@ banner =  ("""\033[1;31m███╗   ██╗███████╗██�
 print(banner)
 copyright = ("         \033[1;34m-=-=-=-=-=-=-Github: zod-the-immortal-=-=-=-=-=-=-\033[0m")
 print(copyright)
+copyright1 = ("     \033[1;34m-=-=-=-=-=-=-https://github.com/rottingratto/NET-RAIDER-=-=-=-=-=-=-\033[0m")
+print(copyright1)
 
 
 def menu():
