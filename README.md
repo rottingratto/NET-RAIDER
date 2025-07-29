@@ -46,9 +46,9 @@ HOW TO INSTALL
 
 ```
  git clone https://github.com/rottingratto/NET-RAIDER.git
- cd net-raider
+ cd NET-RAIDER
  sudo bash requirements.bash
- python3 net-raider.py
+ python3 NET-RAIDER.py
 
 ```
 ################################################################################
